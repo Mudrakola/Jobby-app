@@ -1,0 +1,138 @@
+.job-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 95%;
+}
+.failure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loading-job {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jobs-failure-image {
+  height: 40%;
+  margin-top: 20px;
+}
+.message {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.message-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+@media screen and (max-width: 575px) {
+  .job-list-container {
+    width: 100%;
+  }
+}
+
+.job-bg-container {
+  background-color: #000000;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 15px;
+  padding-top: 20px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.right-container {
+  width: 90%;
+}
+.search-container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #b6c5ff;
+  height: 44px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input-search {
+  height: 42px;
+  background-color: transparent;
+  width: 88%;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 20px;
+  background-color: transparent;
+  height: 40px;
+}
+.search-icon-container {
+  background-color: #272727;
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.sm {
+  display: none;
+}
+.loading {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 575px) {
+  .job-bg-container {
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+  .search-container {
+    display: none;
+  }
+  .sm {
+    display: flex;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .jobs-failure-image {
+    width: 60%;
+  }
+  .message {
+    font-size: 22px;
+  }
+}
+
+.whole-container {
+  display: flex;
+}
